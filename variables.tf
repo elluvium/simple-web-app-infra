@@ -3,3 +3,7 @@ variable "resource_group_name" {
   type        = string
   default = "it-share-rg"
 }
+
+variable "env" {
+  type = string
+}
